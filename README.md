@@ -12,7 +12,8 @@
 ![Tests](https://img.shields.io/badge/Tests-44%20checks%20passing-success)
 ![Data](https://img.shields.io/badge/Storage-CSV%20%26%20TXT-orange)
 
-<a href="[MaidaJaved](https://github.com/MaidaJaved23/Personal-Finance-Student-Attendance-Management-System/Preview.html" target="_blank" rel="noopener noreferrer">🔗 <b>Open the preview page (Preview.html)</b></a>
+<a href="https://maidajaved23.github.io/Personal-Finance-Student-Attendance-Management-System/Preview.html" target="_blank" rel="noopener noreferrer">🔗 <b>Open the preview page (Preview.html)</b></a>
+
 </div>
 
 ---
