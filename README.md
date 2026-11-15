@@ -12,6 +12,8 @@
 ![Tests](https://img.shields.io/badge/Tests-44%20checks%20passing-success)
 ![Data](https://img.shields.io/badge/Storage-CSV%20%26%20TXT-orange)
 
+[🔗 **Open the preview page (preview.html)**](preview.html)
+
 </div>
 
 ---
