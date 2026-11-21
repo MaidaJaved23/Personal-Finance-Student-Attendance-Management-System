@@ -12,7 +12,7 @@
 ![Tests](https://img.shields.io/badge/Tests-44%20checks%20passing-success)
 ![Data](https://img.shields.io/badge/Storage-CSV%20%26%20TXT-orange)
 
-<a href="https://maidajaved23.github.io/Personal-Finance-Student-Attendance-Management-System/preview.html" target="_blank" rel="noopener noreferrer">🔗 <b>Open the preview page (Preview.html)</b></a>
+<a href="https://maidajaved23.github.io/Personal-Finance-Student-Attendance-Management-System/preview.html" target="_blank" rel="noopener noreferrer">🔗 (Preview.html)</b></a>
 
 </div>
 
@@ -33,7 +33,6 @@
 11. [Testing](#-testing)
 12. [Requirements Checklist](#-requirements-checklist)
 13. [Project Structure](#-project-structure)
-14. [Push to GitHub](#-push-to-github)
 
 ---
 
