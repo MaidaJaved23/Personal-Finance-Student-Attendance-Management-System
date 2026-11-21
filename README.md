@@ -12,7 +12,7 @@
 ![Tests](https://img.shields.io/badge/Tests-44%20checks%20passing-success)
 ![Data](https://img.shields.io/badge/Storage-CSV%20%26%20TXT-orange)
 
-[🔗 **Open the preview page (preview.html)**](preview.html)
+[🔗 **Open the live preview page**](https://maidajaved23.github.io/Personal-Finance-Student-Attendance-Management-System/preview.html) · [Local preview.html](preview.html)
 
 </div>
 
@@ -642,9 +642,9 @@ Then share the repository link.
 
 <a href="https://github.com/maidajaved23"><img src="assets/btn-author.svg" alt="Author: Maida Javed" height="64"></a>
 &nbsp;
-<a href="https://github.com/maidajaved23/Python-Files-and-Errors"><img src="assets/btn-github.svg" alt="GitHub repository" height="64"></a>
+<a href="https://github.com/maidajaved23/Personal-Finance-Student-Attendance-Management-System"><img src="assets/btn-github.svg" alt="GitHub repository" height="64"></a>
 &nbsp;
-<a href="https://github.com/maidajaved23/Python-Files-and-Errors"><img src="assets/btn-star.svg" alt="Give me a star on GitHub" height="64"></a>
+<a href="https://github.com/maidajaved23/Personal-Finance-Student-Attendance-Management-System"><img src="assets/btn-star.svg" alt="Give me a star on GitHub" height="64"></a>
 
 </div>
 
