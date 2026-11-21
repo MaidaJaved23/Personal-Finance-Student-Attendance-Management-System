@@ -12,8 +12,7 @@
 ![Tests](https://img.shields.io/badge/Tests-44%20checks%20passing-success)
 ![Data](https://img.shields.io/badge/Storage-CSV%20%26%20TXT-orange)
 
-[🔗 **Open the live preview page**](https://maidajaved23.github.io/Personal-Finance-Student-Attendance-Management-System/preview.html) · [Local preview.html](preview.html)
-
+[🔗 **Open Live Preview**](https://maidajaved23.github.io/Personal-Finance-Student-Attendance-Management-System/preview.html) 
 </div>
 
 ---
@@ -49,8 +48,7 @@
     - [Detailed Test Cases](#-detailed-test-cases)
 13. [Requirements Checklist](#-requirements-checklist)
 14. [Project Structure](#-project-structure)
-15. [Push to GitHub](#-push-to-github)
-16. [Credits and Links](#-credits-and-links)
+15. [Credits and Links](#-credits-and-links)
 
 ---
 
@@ -619,21 +617,6 @@ The files `expense_tracker.py`, `attendance_cleaner.py`, `attendance.txt` and `R
 
 ---
 
-## 🚀 Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Add expense tracker and attendance cleaner"
-git branch -M main
-git remote add origin https://github.com/<your-username>/python-files-errors-assessment.git
-git push -u origin main
-```
-
-Then share the repository link.
-
----
-
 ## 🏁 Credits and Links
 
 <div align="center">
@@ -648,8 +631,3 @@ Then share the repository link.
 
 </div>
 
-<div align="center">
-
-**Made with Python 🐍, simple logic, clear code.**
-
-</div>
