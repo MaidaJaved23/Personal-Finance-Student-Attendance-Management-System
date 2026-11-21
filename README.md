@@ -12,7 +12,7 @@
 ![Tests](https://img.shields.io/badge/Tests-44%20checks%20passing-success)
 ![Data](https://img.shields.io/badge/Storage-CSV%20%26%20TXT-orange)
 
-<a href="https://maidajaved23.github.io/Personal-Finance-Student-Attendance-Management-System/preview.html" target="_blank" rel="noopener noreferrer">🔗 (Preview.html)</b></a>
+[🔗 **Open the preview page (preview.html)**](preview.html)
 
 </div>
 
@@ -24,15 +24,33 @@
 2. [Features at a Glance](#-features-at-a-glance)
 3. [Quick Start](#-quick-start)
 4. [Program 1: Expense Tracker](#-program-1-expense-tracker)
+    - [Menu](#menu)
+    - [Task-by-task description](#task-by-task-description)
+    - [Function details](#function-details)
 5. [Program 2: Attendance Cleaner](#-program-2-attendance-cleaner)
+    - [Task-by-task description](#task-by-task-description-1)
+    - [Example](#example)
 6. [Data Files](#-data-files)
-7. [Program Flow and Function Hierarchy](#-program-flow-and-function-hierarchy)
-8. [Errors Handled and Why](#-errors-handled-and-why)
-9. [Input Validation Rules](#-input-validation-rules)
-10. [Sample Run: Data Saved and Loaded Again](#-sample-run-data-saved-and-loaded-again)
-11. [Testing](#-testing)
-12. [Requirements Checklist](#-requirements-checklist)
-13. [Project Structure](#-project-structure)
+7. [Data Model (ER Diagrams)](#-data-model-er-diagrams)
+    - [Combined ER overview](#combined-er-overview)
+    - [Expense Tracker data model](#expense-tracker-data-model)
+    - [Attendance Cleaner data model](#attendance-cleaner-data-model)
+8. [Program Flow and Function Hierarchy](#-program-flow-and-function-hierarchy)
+    - [Expense Tracker flow](#expense-tracker-flow)
+    - [Attendance Cleaner flow](#attendance-cleaner-flow)
+    - [Function hierarchy](#function-hierarchy)
+9. [Errors Handled and Why](#-errors-handled-and-why)
+10. [Input Validation Rules](#-input-validation-rules)
+11. [Sample Run: Data Saved and Loaded Again](#-sample-run-data-saved-and-loaded-again)
+    - [Run 1: no file yet, add data, then quit](#run-1-no-file-yet-add-data-then-quit)
+    - [Run 2: program started again, the data is loaded](#run-2-program-started-again-the-data-is-loaded)
+    - [Attendance Cleaner](#attendance-cleaner)
+12. [Testing](#-testing)
+    - [Detailed Test Cases](#-detailed-test-cases)
+13. [Requirements Checklist](#-requirements-checklist)
+14. [Project Structure](#-project-structure)
+15. [Push to GitHub](#-push-to-github)
+16. [Credits and Links](#-credits-and-links)
 
 ---
 
@@ -196,6 +214,30 @@ expenses = [
     {"date": "2026-11-10", "item": "Lunch, burger", "category": "Food", "amount": 250.5},
 ]
 ```
+
+---
+
+## 🗺️ Data Model (ER Diagrams)
+
+The programs do not use a database. These diagrams are conceptual models of the information each program handles, so the links between records, names and totals are easy to see.
+
+### Combined ER overview
+
+<div align="center">
+<img src="assets/er-diagram.svg" alt="Combined ER diagram for both programs" width="100%">
+</div>
+
+### Expense Tracker data model
+
+<div align="center">
+<img src="assets/er-expense.svg" alt="Expense Tracker ER diagram" width="100%">
+</div>
+
+### Attendance Cleaner data model
+
+<div align="center">
+<img src="assets/er-attendance.svg" alt="Attendance Cleaner ER diagram" width="100%">
+</div>
 
 ---
 
@@ -395,6 +437,10 @@ Unique categories: Food, Study, Transport
 
 ✅ The four expenses entered in Run 1 are available again in Run 2, so saving and loading both work.
 
+<div align="center">
+<img src="assets/expense-analytics.svg" alt="Expense totals by category as bar and donut charts" width="100%">
+</div>
+
 ### Attendance Cleaner
 
 ```text
@@ -421,6 +467,11 @@ Hina Raza
 Sara Ahmed
 Zain Malik
 ```
+
+
+<div align="center">
+<img src="assets/attendance-analytics.svg" alt="Funnel from 12 lines to 6 unique students and records per student" width="100%">
+</div>
 
 ---
 
@@ -503,6 +554,10 @@ Each case lists the input, the expected result and the result observed when runn
 
 **Summary:** 47 test cases (31 Expense Tracker + 16 Attendance Cleaner). 42 pass and 5 fail with the current code (TC-E10, TC-E31, TC-A14, TC-A15 and TC-A16).
 
+<div align="center">
+<img src="assets/test-results.svg" alt="Test results chart: 42 passing and 5 failing test cases" width="100%">
+</div>
+
 ---
 
 ## 📌 Requirements Checklist
@@ -547,12 +602,39 @@ python-files-errors-assessment/
     ├── attendance-flow.svg # Attendance Cleaner flow diagram
     ├── hierarchy.svg       # function hierarchy of both programs
     ├── data-files.svg      # expenses.csv / attendance files
-    └── errors.svg          # errors handled and why
+    ├── errors.svg          # errors handled and why
+    ├── footer.svg          # animated footer (PSEB Python Django Bootcamp)
+    ├── btn-author.svg      # footer button: author
+    ├── btn-github.svg      # footer button: GitHub
+    ├── btn-star.svg        # footer button: give a star
+    ├── er-diagram.svg      # combined ER overview
+    ├── er-expense.svg      # Expense Tracker ER diagram
+    ├── er-attendance.svg   # Attendance Cleaner ER diagram
+    ├── expense-analytics.svg    # expense totals and share
+    ├── attendance-analytics.svg # lines to unique students
+    └── test-results.svg    # passing and failing test cases
 ```
 
 The files `expense_tracker.py`, `attendance_cleaner.py`, `attendance.txt` and `README.md` are the assignment files. `expenses.csv` and `attendance_clean.csv` are the data files the programs read and write; they were produced by running the programs and are included as sample data. The `assets/` folder only holds pictures for this README, and the programs do not use it.
 
 ---
+
+## 🚀 Push to GitHub
+
+```bash
+git init
+git add .
+git commit -m "Add expense tracker and attendance cleaner"
+git branch -M main
+git remote add origin https://github.com/<your-username>/python-files-errors-assessment.git
+git push -u origin main
+```
+
+Then share the repository link.
+
+---
+
+## 🏁 Credits and Links
 
 <div align="center">
 
@@ -560,8 +642,14 @@ The files `expense_tracker.py`, `attendance_cleaner.py`, `attendance.txt` and `R
 
 <a href="https://github.com/maidajaved23"><img src="assets/btn-author.svg" alt="Author: Maida Javed" height="64"></a>
 &nbsp;
-<a href="https://github.com/maidajaved23/Python-Conditions-and-Loops"><img src="assets/btn-github.svg" alt="GitHub repository" height="64"></a>
+<a href="https://github.com/maidajaved23/Python-Files-and-Errors"><img src="assets/btn-github.svg" alt="GitHub repository" height="64"></a>
 &nbsp;
-<a href="https://github.com/maidajaved23/Python-Conditions-and-Loops"><img src="assets/btn-star.svg" alt="Give me a star on GitHub" height="64"></a>
+<a href="https://github.com/maidajaved23/Python-Files-and-Errors"><img src="assets/btn-star.svg" alt="Give me a star on GitHub" height="64"></a>
+
+</div>
+
+<div align="center">
+
+**Made with Python 🐍, simple logic, clear code.**
 
 </div>
