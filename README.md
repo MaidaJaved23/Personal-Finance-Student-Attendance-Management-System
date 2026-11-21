@@ -555,21 +555,14 @@ The files `expense_tracker.py`, `attendance_cleaner.py`, `attendance.txt` and `R
 
 ---
 
-## 🚀 Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Add expense tracker and attendance cleaner"
-git branch -M main
-git remote add origin https://github.com/<your-username>/python-files-errors-assessment.git
-git push -u origin main
-```
-
-Then share the repository link.
-
 <div align="center">
 
-**Made with Python 🐍, simple logic, clear code.**
+<img src="assets/footer.svg" alt="PSEB Python Django Bootcamp. Instructor: Muhammad Waleed Shehbaz. Author: Maida Javed." width="100%">
+
+<a href="https://github.com/maidajaved23"><img src="assets/btn-author.svg" alt="Author: Maida Javed" height="64"></a>
+&nbsp;
+<a href="https://github.com/maidajaved23/Python-Conditions-and-Loops"><img src="assets/btn-github.svg" alt="GitHub repository" height="64"></a>
+&nbsp;
+<a href="https://github.com/maidajaved23/Python-Conditions-and-Loops"><img src="assets/btn-star.svg" alt="Give me a star on GitHub" height="64"></a>
 
 </div>
